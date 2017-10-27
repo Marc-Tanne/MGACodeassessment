@@ -65,10 +65,13 @@ textarea:focus {
 .dropdown-toggle:focus {
 	background-color: #e3f7fe;
 }
-.btn-close {
+.btn-close, .btn-close:focus, .btn-close:focus:active {
+	text-decoration: none;
+	background-color: transparent;
 	margin-top: -10px;
 }
 .btn-close:after {
+	text-decoration: none;
 	content: "\00d7";
 	color: white;
 	font-size: 40px;
